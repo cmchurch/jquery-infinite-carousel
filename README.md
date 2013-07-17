@@ -1,6 +1,3 @@
-jquery-infinite-carousel
-========================
-
 attribution
 ========================
 
@@ -23,7 +20,8 @@ how to use
 ========================
 
 You can set the carousel to a particular initial slide using,
-      jQuery('#viewport').carousel('#simplePrevious', '#simpleNext', initial_slide);
+	
+       jQuery('#viewport').carousel('#simplePrevious', '#simpleNext', initial_slide);
 
 
 Or you can parse the URL using Regex, 
