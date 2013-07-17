@@ -9,11 +9,11 @@ Please see the initial documentation at https://code.google.com/p/jquery-infinit
 edits
 ========================
 
-The edits for one to set the carousel to a particular slide upon initialization of the carousel.
+The modifications allow for one to set the carousel to a particular slide upon its initialization.
 
-The specific implementation of this edit was to allow a variable to be passed via the URL that could be used to intialize the carousel to a particular slide.
+The specific implementation of this modification was as follows: a variable was passed via the URL, and this variable was then used to intialize the carousel to a particular slide. This allowed a user to keep the particular slide he or she was on throughout his/her navigation of the carousel.
 
-Therefore, the url "foo/bar?slide=X" would initialize the slideshow to slide X. This allows a user to keep consistent the particular slide he or she was on throughout his/her navigation of the carousel.
+Therefore, the url "foo/bar?slide=X" would initialize the slideshow to slide X. 
 
 
 how to use
