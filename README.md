@@ -24,7 +24,7 @@ You can set the carousel to a particular initial slide using,
        jQuery('#viewport').carousel('#simplePrevious', '#simpleNext', initial_slide);
 
 
-Or you can parse the URL using Regex, 
+Or you can parse the URL ( "foo/bar?slide=X" ) using Regex, 
 
       function parseURL (name) {
     			name = RegExp ('[?&]' + name.replace (/([[\]])/, '\\$1') + '=([^&#]*)');
@@ -34,6 +34,6 @@ Or you can parse the URL using Regex,
 And then call the carousel.js using
 
   		jQuery(document).ready(function(){
-				   var numTurns = parseInt(parseURL("subcat"));
-			     jQuery('#viewport').carousel('#simplePrevious', '#simpleNext', numTurns);	
+			     var initial_slide = parseInt(parseURL("slide"));
+			     jQuery('#viewport').carousel('#simplePrevious', '#simpleNext', initial_slide);	
 			});
